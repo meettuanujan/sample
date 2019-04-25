@@ -1,0 +1,37 @@
+<form align="center">
+  <div class="container login-container">
+    <div class="row">
+      <div class="col-md-12 login-form-1">
+        <h2>Sign in here</h2>
+        <label>Username</label>
+        <input
+          type="text"
+          [(ngModel)]="username"
+          name="username"
+          placeholder="Enter Username"
+          required
+          autocomplete="off"
+        />
+        <br /><br />
+        <label>Password</label>
+        <input
+          type="password"
+          [(ngModel)]="password"
+          type="password"
+          name="password"
+          required
+          placeholder="Enter Password"
+          required
+        />
+        <br /><br />
+
+        <button type="submit" class="submit" (click)="login()">Login</button>
+        &nbsp; &nbsp;
+
+        <button type="submit" class="submit" (click)="register()">
+          Register
+        </button>
+      </div>
+    </div>
+  </div>
+</form>

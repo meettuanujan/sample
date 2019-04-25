@@ -1,0 +1,39 @@
+.login-container{
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    background-color:rgb(156, 223, 156);
+}
+
+login-form-1 h3{
+    text-align: center;
+    color: #333;
+}
+
+.login-form-1{
+    padding: 5%;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Lucida Sans';
+    font-size: 1.5em;
+}
+
+.submit{
+    font-weight: 600;
+    color: #fff;
+    background-color: #0062cc;
+    font-size: 1.5em;
+}
+    input {
+	
+        position:relative;
+        font-size: 1.0em;
+         background: linear-gradient(white);
+        padding: 3px;
+         display: inline-block;
+        border-radius: 9999em;
+       }
+
+       h2{
+           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       }

@@ -1,0 +1,28 @@
+<h2 align="center">Add User Details</h2>
+
+<form align="center">
+  <div>
+    <label>Id:</label>
+    <input type="text" name="id" placeholder="id" [formControl]="id" />
+  </div>
+  <div>
+    <label>Username:</label>
+    <input
+      type="text"
+      name="username"
+      placeholder=" add your username"
+      [formControl]="username"
+    />
+  </div>
+
+  <div>
+    <label>Email:</label>
+    <input type="text" name="email" placeholder="email" [formControl]="email" />
+  </div>
+
+  <button (click)="add1(id, username, email)">
+    Add
+  </button>
+  <br />
+  <br />
+</form>

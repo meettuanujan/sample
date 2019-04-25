@@ -1,0 +1,23 @@
+<h1 align="center">
+  Welcome user!!!
+</h1>
+
+<h2>User Details</h2>
+
+<div>
+  <button
+    class="btn btn-success"
+    (click)="addUser()"
+    style="margin-left: 20px;"
+  >
+    Add User
+  </button>
+</div>
+
+<br />
+
+<div *ngFor="let flower of flowers">
+  <app-flower-list [flower]="flower" (deleteFlower)="deleteFlower($event)">
+  </app-flower-list>
+</div>
+{{ username }}

@@ -1,0 +1,28 @@
+<div>
+  <table class="center" width="70%">
+    <tr>
+      <td>{{ flower.id }}</td>
+      <td>{{ flower.name }}</td>
+      <td>{{ flower.email }}</td>
+      <td><button (click)="onDelete(flower)" class="del">Delete</button></td>
+      <td><button (click)="onSelect(flower)" class="edit">edit</button></td>
+    </tr>
+  </table>
+</div>
+
+<div *ngIf="selectedCust">
+  <div><span>id: </span>{{ selectedCust.id }}</div>
+  <div>
+    <label
+      >login:
+      <input [(ngModel)]="selectedCust.name" placeholder="name" />
+    </label>
+  </div>
+  <br />
+  <div>
+    <label
+      >email:
+      <input [(ngModel)]="selectedCust.email" placeholder="name" />
+    </label>
+  </div>
+</div>
